@@ -1,0 +1,25 @@
+.chooseArea{
+   font-family: consolas;
+   font-size: 15pt;
+}
+
+.chooseArea input{
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  margin-left: 10px;
+  outline: none;
+  font-size: 15pt;
+}
+.chooseArea input:focus{
+  box-shadow: 0 0 5px rgb(35, 101, 223);
+ }
+.chooseArea h4{
+   margin-left: 10px;
+}
+.chooseArea button{
+   background-color: rgb(35, 101, 223);
+   color:white;
+   height: 35px;
+   border-radius: 5px;
+}

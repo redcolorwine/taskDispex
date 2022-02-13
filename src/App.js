@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import React from 'react';
+import ChooseAreaContainer from './components/chooseArea/chooseAreaContainer';
+import AddClientModuleContainer from './components/bindClients/addClientModuleContainer';
+import BindClientsContainer from './components/bindClients/bindClientsContainer';
+//В приложении три блока: 1) Выбор адреса и поиск жильцов квартиры 2)Модуль добавления клиентов 3)Связка клиентов с квартирой
+//Может быть в силу неопытности, но я не понимаю немного почему сервер выдает ошибку при связке клиента с адресом, на сайте с API тоже самое. Может быть это как-то связано с политикой CORS
+const App = (props) => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ChooseAreaContainer/>
+      <AddClientModuleContainer/>
+      <BindClientsContainer />
     </div>
   );
 }

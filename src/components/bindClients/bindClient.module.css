@@ -1,0 +1,52 @@
+.bindClient {
+    margin-top: 40px;
+    border: 1px solid rgb(170, 191, 219);
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 5px rgb(35, 101, 223);
+    padding: 5px;
+}
+.bindClient button{
+    border-radius: 5px;
+    margin-left: 10px;
+    color:white;
+    background-color: rgb(35, 101, 223);
+    height: 35px;
+}
+.bindClient p,h4{
+    
+    margin-left: 10px;
+}
+.modal {
+    border: 1px solid rgb(170, 191, 219);
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+}
+.modal button{
+    background-color: rgb(35, 101, 223);
+    color:white;
+}
+.modal input {
+    display: block;
+}
+
+.AddClientModule{
+    margin-top: 60px;
+}
+.addNew {
+    margin-left: 10px;
+    background-color: rgb(35, 101, 223);
+    color:white;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.flatEdit input{
+    display: block;
+    margin-left: 10px;
+}
+.flatEdit button{
+    display: block;
+    margin-top: 5px;
+    height: 35px;
+}
